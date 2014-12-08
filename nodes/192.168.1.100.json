@@ -1,0 +1,9 @@
+{
+  "run_list": [
+      "recipe[openonderwijsdata-api::default]",
+      "recipe[openonderwijsdata-api::web]"
+  ],
+  "automatic": {
+    "ipaddress": "192.168.1.100"
+  }
+}
